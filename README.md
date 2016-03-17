@@ -1,5 +1,5 @@
 # TheSmartToy
-The Smart Toy - Python Open Source - Raspberry pi
+The Smart Toy - Python Open Source - Raspberry Pi
 
 ## Synopsis
 
