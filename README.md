@@ -38,11 +38,11 @@ from PIL import Image, ImageDraw
 
 ## API Reference
 
-Emo - class to work with EPU device
+`Emo` - class to work with EPU device
 
-Emo.__init__(host, port) - perform connection to EPU devise
+`Emo.__init__(host, port)` - perform connection to EPU devise
 
-Emo.getEmo() - get current emotions of EPU. Returns a dictionary with emotion channels and value for each channel. Dictionary keys:
+`Emo.getEmo()` - get current emotions of EPU. Returns a dictionary with emotion channels and value for each channel. Dictionary keys:
 
      'channelEXCITED'
      'channelCONFIDENT'
@@ -57,39 +57,39 @@ Emo.getEmo() - get current emotions of EPU. Returns a dictionary with emotion ch
      'channelDISGUST' 
      'channelANGER'   
 
-Emo.getEmoStr() - get current emotion and interpretes it into text string. For example 'fine', 'embarrassed', etc 
+`Emo.getEmoStr()` - get current emotion and interpretes it into text string. For example 'fine', 'embarrassed', etc 
 
-Robot - main class that links together emotions, AI, input, output and other function as a Smart Toy.
+`Robot` - main class that links together emotions, AI, input, output and other function as a Smart Toy.
 
-Robot.__init__(input_method) - initialize smart toy object. 
+`Robot.__init__(input_method)` - initialize smart toy object. 
 Input_method can be 'voice' or 'type'. When running on Raspbery Pi should be always 'voice'.
 Also TTS and Emo object are initialized here.
 Also robot and human names are asked and remembered here.
 
-Robot.say(message) - say messages via TTS and also prints to stdout.
+`Robot.say(message)` - say messages via TTS and also prints to stdout.
 
-Robot.listen([param]) - listen what user types or says and starts some scenario depending on what was said.
+`Robot.listen([param])` - listen what user types or says and starts some scenario depending on what was said.
 If input message doesn't imply any scenario, it's forwarder to AI.
 
-Robot.setInputMethod(input_method) - set robot input method. Input_method can be 'voice' or 'type'
+`Robot.setInputMethod(input_method)` - set robot input method. Input_method can be 'voice' or 'type'
 
-Robot.inputMethod() - return robot input method.
+`Robot.inputMethod()` - return robot input method.
 
-Robot.setEmo(emo) - set robot Emo object.
+`Robot.setEmo(emo)` - set robot Emo object.
 
-Robot.emo() - return robot Emo object.
+`Robot.emo()` - return robot Emo object.
 
-Robot.setTts(tts) - set robot TTS object. Now it can be only pytts.init()
+`Robot.setTts(tts)` - set robot TTS object. Now it can be only pytts.init()
 
-Robot.tts() - return TTS object.
+`Robot.tts()` - return TTS object.
 
-Robot.setLights(lights) - set lights. lights parameter for now is only phue.Bridge object.
+`Robot.setLights(lights)` - set lights. lights parameter for now is only phue.Bridge object.
 
-Robot.robotName() - return robot name.
+`Robot.robotName()` - return robot name.
 
-Robot.humanName() - return human name.
+`Robot.humanName()` - return human name.
 
-Robot.getLastInputMsg() - return last message sent to robot.
+`Robot.getLastInputMsg()` - return last message sent to robot.
 
 ## Contributors
 
