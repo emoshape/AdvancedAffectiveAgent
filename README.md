@@ -68,6 +68,8 @@ Also robot and human names are asked and remembered here.
 
 `Robot.say(message)` - say messages via TTS and also prints to stdout.
 
+`Robot.sendAI(message)` - send message to AI bot, send answer to EPU (Emo) and reply with the answer.
+
 `Robot.listen([param])` - listen what user types or says and starts some scenario depending on what was said.
 If input message doesn't imply any scenario, it's forwarder to AI.
 
