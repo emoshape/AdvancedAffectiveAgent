@@ -3,7 +3,7 @@ The Smart Toy - Python Open Source - Raspberry Pi
 
 ## Synopsis
 
-The Smart Toy program links together EPU emotion device, AI and various IO devices to form a smart toy with emotions.
+The Smart Toy program links together the EPU emotion processing unit, AI and various IO devices to form a smart toy with emotions.
 
 ## Code Example
 
@@ -19,7 +19,13 @@ The Smart Toy program links together EPU emotion device, AI and various IO devic
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+Hundreds of millions of people communicate daily their desires, their thoughts and their emotions to intelligent machines like Google, Facebook or Siri. We predict that before the end of this century humans will talk more to machines than to other humans. Emotion synthesis and the use of emotions remain a fundamental need for humans that cannot be addressed by today’s AI technology.
+
+Imagine intelligent machines and Text to Speech engines able to modulate their voice by feeling what they say, robots with facial expressions and body language directly controlled by the level of their feelings instead of scripts, smart toys, cars and robots developing their own positive emotional personality learning from humans interactions. We invite you to take part in the future; in making the world a better place by giving intelligent machines empathy for humans to bring about a positive future.
+
+The growing presence of robotics and AI in society at large means that meaningful emotional interaction is core to removing the barrier to widespread adoption. Patrick Levy-Rosenthal
+
+This project will allow anyone to create his own AI, toy or even robot with emotional awarness in less than 15 minutes.
 
 ## Installation
 
