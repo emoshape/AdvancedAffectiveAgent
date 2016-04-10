@@ -1,10 +1,4 @@
-
-
-Apache License
-
-Version 2.0, January 2004
-
-http://www.apache.org/licenses/
+Version 2.1, April 2016
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
