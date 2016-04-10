@@ -107,4 +107,4 @@ Let people know how they can dive into the project, include important links to t
 
 ## License
 
-GNU General Public License
+Based on Apache license: https://github.com/emoshape/TheSmartToy/blob/master/LICENCE.md
