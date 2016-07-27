@@ -67,9 +67,9 @@ from PIL import Image, ImageDraw
 
 `Emo.getEmoStr()` - get current emotion and interpretes it into text string. For example 'fine', 'embarrassed', etc 
 
-`Robot` - main class that links together emotions, AI, input, output and other function as a Smart Toy.
+`Robot` - main class that links together emotions, AI, input, output and other function as an intelligent Toy.
 
-`Robot.__init__(input_method)` - initialize smart toy object. 
+`Robot.__init__(input_method)` - initialize the intelligent agent object. 
 Input_method can be 'voice' or 'type'. When running on Raspbery Pi should be always 'voice'.
 Also TTS and Emo object are initialized here.
 Also robot and human names are asked and remembered here.
