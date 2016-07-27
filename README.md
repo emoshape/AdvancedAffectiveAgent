@@ -5,7 +5,7 @@ Source Code will be published 1st of April 2016
 
 ## Synopsis
 
-The Intelligent Agent program links together the EPU emotion processing unit, AI and various IO devices to form a smart toy with emotions.
+The Intelligent Agent program links together the EPU emotion processing unit, AI and various IO devices to form an intelligent toy with emotions.
 
 ## Code Example
 
