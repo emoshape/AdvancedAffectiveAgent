@@ -1,11 +1,11 @@
-# The Smart Toy
-The Smart Toy - Python Open Source - Raspberry Pi
+# Intelligent Agent
+Intelligent Agent - Python Open Source - Raspberry Pi
 
 Source Code will be published 1st of April 2016
 
 ## Synopsis
 
-The Smart Toy program links together the EPU emotion processing unit, AI and various IO devices to form a smart toy with emotions.
+The Intelligent Agent program links together the EPU emotion processing unit, AI and various IO devices to form a smart toy with emotions.
 
 ## Code Example
 
